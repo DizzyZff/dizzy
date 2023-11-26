@@ -1,0 +1,75 @@
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    background-color: black; /* Set the background to black */
+    color: white;
+    text-align: left;
+  }
+  
+  .hero-content {
+    width: 50%;
+    padding-left: 10%;
+    max-width: 600px; /* Set a max-width if needed */
+  }
+  
+  .hero-greeting {
+    font-size: 2rem; /* Smaller font size for the greeting */
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .hero-name-title {
+    font-size: 4rem; /* Larger font size for the name/title */
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem; /* Smaller font size for the subtitle */
+    margin: 0 0 2rem 0;
+  }
+  
+  .hero-cta-button {
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-cta-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .hero-company-link {
+    color: #1800FF; /* Set the color of the link */
+    text-decoration: underline; /* Ensure the link is underlined */
+  }
+  
+  .hero-company-link:visited {
+    color: #1800FF; /* Keeps the link color the same even after being clicked */
+  }
+  
+  .hero-company-link:hover, 
+  .hero-company-link:focus {
+    color: #1800FF; /* Maintain the color on hover and focus for better UX */
+    text-decoration: underline; /* Maintain underline on hover and focus */
+  }
+
+  .hero-image-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image {
+    max-width: 100%; /* Adjust the size as needed */
+    max-height: 100%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25); /* Example shadow */
+    border-radius: 10px; /* If you want rounded corners */
+  }

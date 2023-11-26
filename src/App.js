@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import HeroSection from './HeroSection';
 import HeaderBar from './HeaderBar';

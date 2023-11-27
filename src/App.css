@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
 body {
-  overflow: hidden;
+  overflow: hidden; /* Prevent scrolling */
 }

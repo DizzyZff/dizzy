@@ -79,11 +79,6 @@
     text-align: center;
 }
 
-.hero-content, .hero-image-container {
-    width: 100%;
-    padding: 0;
-}
-
 .hero-greeting {
     font-size: 1.5rem; 
 }

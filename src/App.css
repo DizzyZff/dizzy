@@ -38,5 +38,5 @@
 }
 
 body {
-  overflow: hidden; /* Prevent scrolling */
+  overflow-x: hidden; /* Prevent scrolling */
 }

@@ -1,73 +1,117 @@
 .hero-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    background-color: #010206; /* Set the background to black */
-    color: white;
-    text-align: left;
-  }
-  
-  .hero-content {
-    width: 50vw;
-    padding-left: 10%;
-    max-width: 600px; 
-  }
-  
-  .hero-greeting {
-    font-size: 2rem; 
-    margin: 0 0 0.5rem 0;
-  }
-  
-  .hero-name-title {
-    font-size: 4rem; /* Larger font size for the name/title */
-    margin: 0 0 0.5rem 0;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.5rem; /* Smaller font size for the subtitle */
-    margin: 0 0 2rem 0;
-  }
-  
-  .hero-cta-button {
-    padding: 1rem 2rem;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .hero-cta-button:hover {
-    background-color: white;
-    color: black;
-  }
-  
-  .hero-company-link {
-    color: #1800FF; /* Set the color of the link */
-    text-decoration: underline; /* Ensure the link is underlined */
-  }
-  
-  .hero-company-link:visited {
-    color: #1800FF; /* Keeps the link color the same even after being clicked */
-  }
-  
-  .hero-company-link:hover, 
-  .hero-company-link:focus {
-    color: #1800FF; /* Maintain the color on hover and focus for better UX */
-    text-decoration: underline; /* Maintain underline on hover and focus */
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #010206; /* Set the background to black */
+  color: white;
+  text-align: left;
+}
 
-  .hero-image-container {
-    width: 50vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero-image {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-  }
+.hero-content {
+  width: 50vw;
+  padding-left: 10%;
+  max-width: 600px; 
+}
+
+.hero-greeting {
+  font-size: 2rem; 
+  margin: 0 0 0.5rem 0;
+}
+
+.hero-name-title {
+  font-size: 4rem; /* Larger font size for the name/title */
+  margin: 0 0 0.5rem 0;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem; /* Smaller font size for the subtitle */
+  margin: 0 0 2rem 0;
+}
+
+.hero-cta-button {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-cta-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero-company-link {
+  color: #1800FF; /* Set the color of the link */
+  text-decoration: underline; /* Ensure the link is underlined */
+}
+
+.hero-company-link:visited {
+  color: #1800FF; /* Keeps the link color the same even after being clicked */
+}
+
+.hero-company-link:hover, 
+.hero-company-link:focus {
+  color: #1800FF; /* Maintain the color on hover and focus for better UX */
+  text-decoration: underline; /* Maintain underline on hover and focus */
+}
+
+.hero-image-container {
+  width: 50vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: auto;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+.hero-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-greeting {
+    font-size: 1.5rem; 
+}
+
+.hero-name-title {
+    font-size: 3rem;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+}
+
+.hero-cta-button {
+    font-size: 0.9rem;
+}
+}
+
+/* Phones */
+@media (max-width: 480px) {
+.hero-greeting {
+    font-size: 1.2rem;
+}
+
+.hero-name-title {
+    font-size: 2.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+}
+
+.hero-cta-button {
+    font-size: 0.8rem;
+    padding: 0.8rem 1.6rem;
+}
+}
